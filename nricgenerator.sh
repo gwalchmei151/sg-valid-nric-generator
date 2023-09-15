@@ -134,7 +134,7 @@ function generate_num_sub68 {
 	echo -ne "\n${Orange}[ ! ]${NC}Generating raw nric number list using permutations..."
 
 	last_6_index=0
-	while [ $last_6_index -lt 50000 ];
+	while [ $last_6_index -lt 1000000 ];
 
 	do
 		sevendigits1=${year1}${last_6[$last_6_index]}
